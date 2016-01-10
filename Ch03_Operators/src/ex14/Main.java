@@ -19,5 +19,6 @@ public class Main {
         String str2 = "bbb";
 
         compareStrings(str1,str2);
+
     }
 }
