@@ -1,30 +1,18 @@
 package ex12;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.ListIterator;
+import generics.coffee.Coffee;
+import generics.coffee.CoffeeGenerator;
+import net.mindview.util.TypeCounter;
 
 public class Main {
 
 	public static void main(String[] args) {
-
-		List<Integer> firstList = new ArrayList<>(Arrays.asList(0, 1, 2, 3, 4));
-		List<Integer> secondList = new ArrayList<>(Arrays.asList(5, 6, 7, 8, 9));
-		System.out.print("2nd list before: " + secondList);
-		
-		ListIterator<Integer> firstIterator = firstList.listIterator();
-		ListIterator<Integer> secondIterator = secondList.listIterator();
-
-		while (firstIterator.hasNext()) {
-			firstIterator.next();
+		TypeCounter counter = new TypeCounter(Coffee.class);
+		for(Coffee coffee : new CoffeeGenerator(20)) {
+			System.out.println(coffee.getClass().getSimpleName() + " ");
+			counter.count(coffee);
 		}
-
-		while (secondIterator.hasNext()) {
-			secondIterator.next();
-			secondIterator.set(firstIterator.previous());
-		}
-		System.out.print(" 2nd list after: " + secondList);
-
+		System.out.println();
+		System.out.println(counter);
 	}
 }

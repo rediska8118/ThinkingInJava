@@ -3,8 +3,21 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ch02_EverythingIsAnObject/Ch02_EverythingIsAnObject.iml" filepath="$PROJECT_DIR$/Ch02_EverythingIsAnObject/Ch02_EverythingIsAnObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch03_Operators/Ch03_Operators.iml" filepath="$PROJECT_DIR$/Ch03_Operators/Ch03_Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch04_ControllingExecution/Ch04_ControllingExecution.iml" filepath="$PROJECT_DIR$/Ch04_ControllingExecution/Ch04_ControllingExecution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch05_InitializationAndCleanup/Ch05_InitializationAndCleanup.iml" filepath="$PROJECT_DIR$/Ch05_InitializationAndCleanup/Ch05_InitializationAndCleanup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch06_AccessControl/Ch06_AccessControl.iml" filepath="$PROJECT_DIR$/Ch06_AccessControl/Ch06_AccessControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch07_ReusingClasses/Ch07_ReusingClasses.iml" filepath="$PROJECT_DIR$/Ch07_ReusingClasses/Ch07_ReusingClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch08_Polymorphism/Ch08_Polymorphism.iml" filepath="$PROJECT_DIR$/Ch08_Polymorphism/Ch08_Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch09_Interfaces/Ch09_Interfaces.iml" filepath="$PROJECT_DIR$/Ch09_Interfaces/Ch09_Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch10_InnerClasses/Ch10_InnerClasses.iml" filepath="$PROJECT_DIR$/Ch10_InnerClasses/Ch10_InnerClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch11_HoldingYourObjects/Ch11_HoldingYourObjects.iml" filepath="$PROJECT_DIR$/Ch11_HoldingYourObjects/Ch11_HoldingYourObjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch12_ErrorHandlingWithExceptions/Ch12_ErrorHandlingWithExceptions.iml" filepath="$PROJECT_DIR$/Ch12_ErrorHandlingWithExceptions/Ch12_ErrorHandlingWithExceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch13_Strings/Ch13_Strings.iml" filepath="$PROJECT_DIR$/Ch13_Strings/Ch13_Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ch14_TypeInformation/Ch14_TypeInformation.iml" filepath="$PROJECT_DIR$/Ch14_TypeInformation/Ch14_TypeInformation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ThinkingInJava.iml" filepath="$PROJECT_DIR$/ThinkingInJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch15_Generics/Ch15_Generics.iml" filepath="$PROJECT_DIR$/Ch15_Generics/Ch15_Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch16_Arrays/Ch16_Arrays.iml" filepath="$PROJECT_DIR$/Ch16_Arrays/Ch16_Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TIJ4_Code/TIJ4_Code.iml" filepath="$PROJECT_DIR$/TIJ4_Code/TIJ4_Code.iml" />
     </modules>
   </component>
 </project>
