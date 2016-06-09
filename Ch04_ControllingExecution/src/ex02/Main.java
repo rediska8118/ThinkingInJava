@@ -2,23 +2,23 @@ package ex02;
 
 import java.util.Random;
 
-/**
- * Created by aw3 on 10.01.16.
- */
 public class Main {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
+		Random random1 = new Random();
+		Random random2 = new Random();
 
+		for (int i = 0; i < 25; i++) {
+			int x = random1.nextInt(25);
+			int y = random2.nextInt(25);
 
-        Random random1 = new Random();
-        Random random2 = new Random();
-        for(int i = 0;i < 24; i++){
-            int a = random1.nextInt(10);
-            int b = random2.nextInt(10);
+			if (x > y) {
+				System.out.println(x + " > " + y);
+			} else if (x < y) {
+				System.out.println(x + " > " + y);
+			} else{
+				System.out.println(x + " = " + y);
+			}
+		}
+	}
 
-            if(a>b) System.out.println(a+" > "+b);
-            else if(a<b) System.out.println(a+" < "+b);
-            else System.out.println(a+" = "+b);
-        }
-    }
-
- }
+}
